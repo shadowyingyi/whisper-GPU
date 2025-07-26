@@ -21,7 +21,7 @@
     - 下载 `ggml-large-v3.bin`，并放到和 `whisper-cli.exe` 相同目录下
 
 2. **准备音频文件**
-    - 将你要转录的 **`.wav` 格式音频**，放入 `whisper-cli.exe` 所在目录
+    - 将你要转录的 **`.wav` 格式音频**，放入 `whisper-cli.exe` 所在目录，建议使用ffmpeg把音频切成15分钟为单位的小段
 
 3. **一键转录**
     - 双击 `en.bat`  
